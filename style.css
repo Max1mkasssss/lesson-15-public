@@ -22,7 +22,12 @@ li{
     padding: 55px;
     order: 1;
 }
-.drugoy{ 
-    order: -1;
+/* .grow-0{ 
+    flex-grow: 0;
 }
-
+.grow-1{ 
+    flex-grow: 1;
+}
+.grow-2{ 
+    flex-grow: 2;
+} */
