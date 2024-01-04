@@ -3,10 +3,6 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-.container{ 
-    margin: 10px auto;
-    
-}
 li{ 
     list-style: none;
 }
@@ -15,13 +11,38 @@ li{
 .flex-container{ 
     display: flex;
     gap: 25px;
+    /* width: 800px;
+    border: 1px solid red; */
 }
 .flex-item{ 
     background-color: aqua;
     font-size: 35px;
     padding: 55px;
     order: 1;
+    width: 100px;
+    height: 100px;
 }
+
+.shrink-1{ 
+    flex-shrink: 1;
+}
+.shrink-2{ 
+    flex-shrink: 2;
+}
+.shrink-3{ 
+    flex-shrink: 3;
+}
+.shrink-4{ 
+    flex-shrink: 4;
+}
+.shrink-5{ 
+    flex-shrink: 5;
+}
+.shrink-6{ 
+    flex-shrink: 6;
+}
+
+
 /* .grow-0{ 
     flex-grow: 0;
 }
